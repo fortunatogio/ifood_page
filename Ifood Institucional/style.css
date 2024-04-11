@@ -66,7 +66,7 @@ body {
     color: #eb0033;
 }
 .header ul li:last-child:hover {
-    background: #eebbbe;
+    background: #fdd7d9;
 }
 .text {
     display: flex;
@@ -83,7 +83,6 @@ body {
 }
 .left p{
     position: absolute;
-    width: 600px;
     top: 300px;
     left: 170px;
     color: #fff;
@@ -104,7 +103,7 @@ body {
     top: 485px;
 }
 .left h2:hover{
-    background: #eebbbe;
+    background: #fdd7d9;
 }
 .right{
     display: flex;
@@ -114,4 +113,262 @@ body {
     width: 500px;
     height: 450px;
     left: 700px;
+}
+.hero2 {
+    height: 95%;
+    background: #fff;
+}
+.left2 h1{
+    position: relative;
+    color: #eb0033;
+    left: 170px;
+    font-size: 35px;
+    width: 600px;
+    top: 50px;
+}
+.left2 p{
+    position: absolute;
+    left: 170px;
+    top: 730px;
+    font-size: 19.5px;
+    line-height: 1.75rem;
+}
+.left2 h2{
+    position: absolute;
+    background: #eb0033;
+    padding: 15px 25px; 
+    margin: 0 0 0 25px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    color: #fff;
+    font-size: 18px;
+    left: 146px;
+    top: 1015px;
+}
+.left2 h2:hover{
+    background: #db5d6a;
+}
+.right2 img{
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    left: 700px;
+    top: 625px;
+}
+.hero3 {
+    height: 75%;
+    background: #fff;
+}
+.left3 img{
+    position: relative;
+    left: 163px;
+}
+.right3 h1{
+    position: relative;
+    color: #eb0033;
+    left: 725px;
+    font-size: 35px;
+    width: 600px; 
+    top: -315px; 
+}
+.right3 p{
+    position: absolute;
+    left: 725px;
+    top: 1275px;
+    font-size: 19.5px;
+    line-height: 1.75rem;
+}
+.right3 h2{
+    position: absolute;
+    background: #eb0033;
+    padding: 15px 25px; 
+    margin: 0 0 0 25px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    color: #fff;
+    font-size: 18px;
+    left: 700px;
+    top: 1500px;
+}
+.hero4 {
+    height: 123%;
+    background: #f5f3f4;
+}
+.text_news{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text_news p{
+    position: relative;
+    top: 50px;
+}
+.text_news h1{
+    position: relative;
+    top: 35px;
+}
+.news{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.news1{
+    position: relative;
+    top: 65px;
+    width: 350px; 
+    height: 350px; 
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #00000033;
+}
+.news1 h3{
+    position: relative;
+    width: 300px;
+    top: 135px;
+    left: 30px;
+}
+.news1 p{
+    position: relative;
+    width: 300px;
+    left: 30px;
+    top: 140px;
+    font-size: 13.5px;
+}
+.news1 h5{
+    position: relative;
+    width: 300px;
+    left: 30px;
+    top: 155px;
+    font-size: 12.5px;
+    color: #b9b9b9;
+}
+.news2{
+    position: relative;
+    top: 65px;
+    width: 350px; 
+    height: 350px; 
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #00000033;
+}
+.news2 h3{
+    position: relative;
+    width: 300px;
+    top: 135px;
+    left: 30px;
+}
+.news2 p{
+    position: relative;
+    width: 300px;
+    left: 30px;
+    top: 140px;
+    font-size: 13.5px;
+}
+.news2 h5{
+    position: relative;
+    width: 300px;
+    left: 30px;
+    top: 140px;
+    font-size: 12.5px;
+    color: #b9b9b9;
+}
+.news3{
+    position: relative;
+    top: 65px;
+    width: 350px; 
+    height: 350px; 
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #00000033;
+}
+.news3 h3{
+    position: relative;
+    width: 300px;
+    top: 135px;
+    left: 30px;
+}
+.news3 p{
+    position: relative;
+    width: 300px;
+    left: 30px;
+    top: 140px;
+    font-size: 13.5px;
+}
+.news3 h5{
+    position: relative;
+    width: 300px;
+    left: 30px;
+    top: 140px;
+    font-size: 12.5px;
+    color: #b9b9b9;
+}
+.acesse{
+    position: absolute;
+    background: #eb0033;
+    padding: 0px 25px; 
+    margin: 0 0 0 25px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 300;
+    color: #fff;
+    font-size: 13px;
+    right: 139.5px;
+    top: 2225px;
+}
+.hero5{
+    height: 85%;
+    background: #eb0033;
+}
+.infos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.infos ul{
+    margin-top: auto;
+}
+.infos ul li {
+    list-style: none;
+}
+.infos ul li a {
+    text-decoration: none;
+    font-size: 18px;
+}
+.sobre a{
+    color: #fff;
+    line-height: 2.0rem;
+    position: relative;
+    top: 82px;
+}
+.comunidade a{
+    color: #fff;
+    line-height: 2.0rem;
+    position: relative;
+    top: -14px;
+}
+.sustentabilidade a{
+    color: #fff;
+    line-height: 2.0rem;
+    position: relative;
+    top: -30px;
+}
+.ifnews a{
+    color: #fff;
+    line-height: 2.0rem;
+    position: relative;
+    top: 2px;
+}
+.apps a{
+    color: #fff;
+    line-height: 2.0rem;
+    position: relative;
+    top: 37px;
 }
