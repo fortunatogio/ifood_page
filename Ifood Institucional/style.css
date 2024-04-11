@@ -322,7 +322,7 @@ body {
     top: 2225px;
 }
 .hero5{
-    height: 85%;
+    height: 95%;
     background: #eb0033;
 }
 .infos{
@@ -371,4 +371,21 @@ body {
     line-height: 2.0rem;
     position: relative;
     top: 37px;
+}
+.footer{
+    height: 15%;
+    background: #890019;
+}
+.footer img{
+    position: relative;
+    width: 60px;
+    left: 190px;
+    top: 35px;
+}
+.footer span{
+    position: relative;
+    font-size: 0.825rem;
+    color: #fff;
+    left: 300px;
+    top: 15px;
 }
