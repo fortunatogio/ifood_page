@@ -13,12 +13,18 @@ body {
 }
 .hero {
     height: 95%;
-    background: #ea1d2c;
+    background: #eb0033;
 }
 .header {
     display: flex;
     justify-content: center;
     margin: 0 45px;
+}
+.logo {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    left: 170px;
 }
 .header ul {
     display: flex;
@@ -28,6 +34,23 @@ body {
     list-style: none;
     margin: 0 25px;
     font-size: 18px;
+    border-bottom: 2px solid transparent;
+    transition:  border-color 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+.header ul li::after {
+    content: ''; /* Cria o pseudoelemento */
+    position: absolute; /* Posiciona o pseudoelemento */
+    bottom: 0; /* Alinha o pseudoelemento na parte inferior */
+    left: 100%; /* Inicia o pseudoelemento fora do item da lista */
+    width: 100%; /* Largura inicial do pseudoelemento */
+    height: 2px; /* Altura da borda */
+    background-color: #fff; /* Cor da borda */
+    transition: left 0.3s ease; /* Efeito de transição suave */
+}
+.header ul li:hover::after {
+    left: 0;
 }
 .header ul li a {
     text-decoration: none;
@@ -40,10 +63,10 @@ body {
     border-radius: 5px;
     border: none;
     font-weight: 500;
-    color: #ea1d2c;
+    color: #eb0033;
 }
 .header ul li:last-child:hover {
-    background: #fc9ba1;
+    background: #eebbbe;
 }
 .text {
     display: flex;
@@ -64,5 +87,31 @@ body {
     top: 300px;
     left: 170px;
     color: #fff;
-    font-size: 20px;
+    font-size: 19.5px;
+    line-height: 1.75rem;
+}
+.left h2{
+    position: absolute;
+    background: #fff;
+    padding: 15px 25px; 
+    margin: 0 0 0 25px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    color: #eb0033;
+    font-size: 18px;
+    left: 147px;
+    top: 485px;
+}
+.left h2:hover{
+    background: #eebbbe;
+}
+.right{
+    display: flex;
+}
+.right img{
+    position: relative;
+    width: 500px;
+    height: 450px;
+    left: 700px;
 }
